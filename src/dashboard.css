@@ -1,0 +1,111 @@
+/* Root colors and fonts */
+:root {
+  --primary-color: #c8edbf; /* Light blue for a fresh look */
+  --secondary-color: #ffffff; /* Soft green for contrast */
+  --accent-color: #e67e22; /* Warm orange for an energetic touch */
+  --background-color: #ecf0f1; /* Light grey for a soft background */
+  --card-background: #ffffff; /* Clean white card background */
+  --text-color: #2c3e50; /* Darker text color for readability */
+  --text-secondary: #95a5a6; /* Subtle grey for secondary text */
+  --font-main: 'Open Sans', sans-serif; /* Modern and readable font */
+  --font-heading: 'Lora', serif; /* Elegant serif font for headings */
+}
+
+.dashboard {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 40px;
+  background: var(--background-color);
+  border-radius: 16px;
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.15);
+}
+
+.dashboard h1 {
+  color: black;
+  font-family: var(--font-heading);
+  font-size: 36px;
+  margin-bottom: 30px;
+  text-align: center;
+}
+
+.user-info-card {
+  background: var(--card-background);
+  border-radius: 12px;
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.1);
+  padding: 30px;
+  margin-bottom: 25px;
+  transition: transform 0.3s ease, box-shadow 0.3s ease, background-color 0.3s ease;
+}
+
+.user-info-card:hover {
+  transform: scale(1.05);
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+  background-color: #f8f8f8; /* Light blue background on hover */
+}
+
+.user-info-card h2 {
+  color: var(--text-color);
+  font-family: var(--font-heading);
+  font-size: 30px;
+  margin-bottom: 15px;
+}
+
+.user-info-card p {
+  color: var(--text-secondary);
+  font-size: 20px;
+  margin-bottom: 15px;
+}
+
+.user-info-card ul {
+  list-style: none;
+  padding: 0;
+}
+
+.user-info-card li {
+  margin-bottom: 14px;
+  font-size: 18px;
+  color: var(--text-color);
+}
+
+.user-info-card button.edit-profile-button {
+  padding: 10px 20px;
+  background-color: rgb(93, 221, 187);
+  color: rgb(0, 0, 0);
+  border: none;
+  border-radius: 8px; /* Rounded corners for a more modern look */
+  cursor: pointer;
+  font-size: 16px; /* Larger font size for better readability */
+  display: block;
+  width: auto;
+  max-width: 220px;
+  text-align: center;
+  transition: background-color 0.3s ease, transform 0.3s ease, box-shadow 0.3s ease;
+  margin: 0 auto;
+}
+
+.user-info-card button.edit-profile-button:hover {
+  background-color: var(--accent-color);
+  transform: scale(1.05);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+/* Responsive adjustments */
+@media (max-width: 1024px) {
+  .dashboard {
+    padding: 30px;
+  }
+
+  .user-info-card {
+    padding: 20px;
+  }
+}
+
+@media (max-width: 768px) {
+  .dashboard {
+    padding: 20px;
+  }
+
+  .user-info-card {
+    padding: 15px;
+  }
+}

@@ -1,0 +1,140 @@
+.educational-resources container-fluid{
+    background-color: #f0f4f8; /* Very light gray-blue background */
+    padding: 2rem 0; /* Increased padding for a spacious feel */
+  }
+  
+  .jumbotron {
+    border-radius: 0;
+    margin-top: 100px;
+    padding: 0.2rem; /* Increased padding for more emphasis */
+    background: linear-gradient(135deg, #e0f7fa 0%, #b9fbc0 100%); /* Soft turquoise to light green gradient */
+    color: #333; /* Darker text color for contrast */
+    text-align: center; /* Center align the text */
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); /* Light shadow around jumbotron */
+    border-radius: 8px; /* Rounded corners for jumbotron */
+  }
+  
+  .jumbotron h1 {
+    font-size: 4rem; /* Larger font size for greater emphasis */
+    font-weight: 500; /* Bold font weight */
+    background: linear-gradient(135deg, #00796b 0%, #004d40 100%); /* Gradient text color */
+    -webkit-background-clip: text; /* Clip background to text */
+    -webkit-text-fill-color: transparent; /* Make the text color transparent to show gradient */
+    text-shadow: 3px 3px 6px rgba(0, 0, 0, 0.2); /* Subtle text shadow for depth */
+    animation: fadeIn 1s ease-out, flyIn 2s ease-out; /* Combine animations for entry effect */
+  }
+  
+  .jumbotron p {
+    font-size: 1.5rem; /* Slightly larger font size for better readability */
+    font-weight: 300; /* Lighter font weight for a softer look */
+    color: #555; /* Darker gray text color for better contrast */
+    animation: fadeIn 1.5s ease-out, flyIn 2.5s ease-out; /* Combine animations for entry effect */
+  }
+  
+  .resources-section {
+    margin: 1rem 0; /* Spacing between sections */
+  }
+  
+  .resources-section h2 {
+    font-size: 2.5rem; /* Larger font size for section titles */
+    color: #02433b; /* Teal color for section titles */
+    margin-bottom: 1rem; /* Spacing below section titles */
+    position: relative; /* For pseudo-element positioning */
+  }
+  
+  .resources-section h2::after {
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: -10px;
+    width: 60px;
+    height: 5px;
+    background-color: #00796b; /* Underline color */
+    border-radius: 5px;
+  }
+  .col{
+    margin-right: auto;
+  }
+  .card {
+    width: 480px;
+    height: 380px;
+    
+  
+  align-items: center; /* Center vertically */
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    background-color: #e3f2fd; /* White background for cards */
+    border: 1px solid #e0e0e0; /* Light gray border */
+    border-radius: 12px; /* More rounded corners for cards */
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2); /* Subtle shadow for cards */
+    overflow: hidden; /* Ensure that no content spills out of the card */
+  }
+  
+  .card:hover {
+    transform: scale(1.05); /* Slightly larger scale on hover */
+    box-shadow: 0 6px 15px rgba(0, 0, 0, 0.2); /* Deeper shadow on hover */
+  }
+  
+  .card-img-top {
+    border-bottom: 1px solid #e0e0e0; /* Light border under the image */
+    width: 480px;
+    height: 250px;
+  }
+  
+  .card-body {
+    padding: 1rem; /* Comfortable padding inside the card */
+  }
+  .lead1{
+    color: #000000;
+  }
+  .card-title {
+    font-size: 1.5rem; /* Medium-large font size for titles */
+    color: #112e2a; /* Teal color for card titles */
+    animation: flyIn 2s ease-out;
+  }
+  
+  .card-text {
+    font-size: 1rem;
+    color: #000000; /* Darker gray for text */
+  }
+  
+  .btn-primary {
+    background-color: #174641; /* Medium teal background */
+    border-color: #009688; /* Darker teal border */
+    transition: background-color 0.3s ease, border-color 0.3s ease;
+    border-radius: 20px; /* Rounded button corners */
+    padding: 0.75rem 1.5rem; /* Comfortable button padding */
+  }
+  
+  .btn-primary:hover {
+    background-color: #009688; /* Darker teal on hover */
+    border-color: #00796b; /* Even darker teal on hover */
+  }
+  
+  .text-center {
+    margin-bottom: 1rem;
+  }
+  
+  @keyframes fadeIn {
+    from {
+      opacity: 0;
+    }
+    to {
+      opacity: 1;
+    }
+  }
+  
+  @keyframes flyIn {
+    0% {
+      transform: translateY(-30px);
+      opacity: 0;
+    }
+    50% {
+      transform: translateY(10px);
+      opacity: 0.5;
+    }
+    100% {
+      transform: translateY(0);
+      opacity: 1;
+    }
+  }
+  

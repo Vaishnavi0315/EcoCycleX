@@ -1,0 +1,88 @@
+
+  
+  
+  .container {
+    font-family: Arial, sans-serif;
+   
+    color: #333;
+    
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  /* Title Section Styles */
+  
+  .title-section {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+    position: relative;
+    height: 20vh; /* Use 20% of the viewport height */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .title {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+  
+  /* Points Section Styles */
+  
+  .points-section {
+    margin-top: 20px;
+  }
+  
+  .points {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .point {
+    margin-bottom: 10px;
+  }
+  
+  .point a {
+    text-decoration: none;
+    color: #337ab7;
+  }
+  
+  .point a:hover {
+    color: #23527c;
+  }
+  
+  /* Popup Styles */
+  
+  .popup {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: #fff;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    display: block;
+  }
+  
+  .popup h2 {
+    margin-top: 0;
+  }
+  
+  .popup button {
+    background-color: #337ab7;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+  }
+  
+  .popup button:hover {
+    background-color: #23527c;
+  }

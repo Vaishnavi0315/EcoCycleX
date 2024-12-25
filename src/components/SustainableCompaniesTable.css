@@ -1,0 +1,19 @@
+.sustainable-companies-table {
+    margin-top: 20px;
+  }
+  
+  .sustainable-companies-table table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  .sustainable-companies-table th, .sustainable-companies-table td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+  }
+  
+  .sustainable-companies-table th {
+    background-color: #f2f2f2;
+  }
+  

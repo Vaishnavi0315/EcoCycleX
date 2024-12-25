@@ -1,0 +1,90 @@
+/* Login.css */
+
+.LoginContainer {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  animation: flowUp 1s ease-in-out both;
+}
+
+@keyframes flowUp {
+  0% {
+    transform: translate(-50%, 100%);
+  }
+  100% {
+    transform: translate(-50%, -50%);
+  }
+}
+.Login {
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 40px;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.Login h1 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.Login form {
+  display: flex;
+  flex-direction: column;
+}
+
+.Login form div {
+  margin-bottom: 20px;
+  position: relative;
+}
+
+.Login form label {
+  margin-bottom: 10px;
+  font-weight: bold;
+}
+
+.Login form input {
+  padding: 10px;
+  padding-left: 40px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  width: 100%;
+}
+
+.Login form .fa-envelope,
+.Login form .fa-lock {
+  position: absolute;
+  top: 50px;
+  left: 10px;
+  color: #666;
+}
+
+.Login form .error {
+  color: red;
+  font-size: 12px;
+  margin-top: 5px;
+}
+
+
+.Login form button[type="submit"],
+.Login form button[type="button"] {
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  background-color: #4CAF50;
+  color: #fff;
+  cursor: pointer;
+}
+
+.Login form button[type="submit"]:hover,
+.Login form button[type="button"]:hover {
+  background-color: #3e8e41;
+}
+
+.Login form .button-container {
+  display: flex;
+  justify-content: space-between;
+}

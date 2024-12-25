@@ -1,0 +1,230 @@
+/* .financial-management-container {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 20vh; /* top 20% */
+  /*
+}
+
+.financial-management-content {
+  width: 400%;
+  max-width: 1500px;
+  background-color: #f9f9f9;
+  padding: 20px;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.financial-header {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.financial-header h1 {
+  font-size: 24px;
+  font-weight: bold;
+  color: #333;
+}
+
+.financial-tip-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.financial-tip {
+  width: 45%;
+  margin: 10px;
+  padding: 20px;
+  background-color: #fff;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.financial-tip h2 {
+  font-size: 18px;
+  font-weight: bold;
+  color: #333;
+  margin-bottom: 10px;
+}
+
+.financial-tip ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.financial-tip li {
+  margin-bottom: 10px;
+  padding-left: 20px;
+  position: relative;
+} */
+
+
+
+
+
+
+
+
+.financial-tips {
+  font-family: Arial, sans-serif;
+  background: linear-gradient(to bottom, #e3f2fd, #ffffff);
+  color: #333;
+  margin-top: 6%;
+  
+}
+
+/* .financial-tips-header {
+  text-align: center;
+  padding: 0.1rem;
+  background-color: #59e75d65;
+  color: white;
+} */
+
+/* .financial-tips-header h1 {
+  margin: 10px;
+  font-size: 2.5rem;
+} */
+.custom-list {
+  list-style: none; /* Remove default bullets */
+  padding: 0; /* Remove padding */
+  text-align: left;
+}
+
+.custom-list li {
+  position: relative; /* Make ::before relative to li */
+  padding-left: 20px; /* Space for the custom symbol */
+}
+
+.custom-list li::before {
+  content: "✓"; /* Use any symbol or emoji */
+  position: absolute;
+  left: 0; /* Position the symbol */
+  color: rgb(104, 26, 214); /* Optional: Change symbol color */
+  font-size: 16px; /* Adjust size as needed */
+}
+.fin{
+  text-align: left;
+  font-weight: bold;
+  font-style: italic;
+  padding: 2rem;
+  font-size: 70px;
+}
+.sim{
+  text-align: left;
+  padding: 2rem;
+  font-size: 20px;
+  margin-top: -65px;
+  color: #4caf50;
+}
+.cards-container {
+  display: grid;
+ 
+  margin-left: 420px;
+  margin-top: -0.5%;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 1.5rem;
+  max-width: 1200px;
+  /* margin: 2rem auto; */
+  /* background-color: #59e75d65; */
+  padding: 0 0.5rem;
+}
+
+.cardd {
+ margin-top: 10%;
+ margin-bottom: 5%;
+  background: white;
+  border-radius: 20px;
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.1);
+  padding: 0.6rem;
+  text-align: center;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  border-top: 5px solid #4CAF50;
+}
+
+.card:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 12px 20px rgba(0, 0, 0, 0.15);
+}
+
+.iconz {
+  font-size: 3rem;
+  color: #4CAF50;
+  margin-bottom: 1rem;
+}
+
+
+
+.cardleft {
+  background: rgba(4, 4, 4, 0);
+  height: 900px;
+  width: 380px;
+  margin-left: 2%;
+  margin-top: 10px;
+  margin-bottom: 10%;
+  position: fixed; 
+  top: 12%; /* Adjust vertical position */
+  left: 0%; /* Align with the margin-left value */
+  
+  padding: 10px;
+  
+}
+
+.hht{
+  margin-left: 7px;
+  margin-right: 7px;
+  font-size: 1.3rem;
+  color: #4CAF50;
+  text-align: left;
+}
+
+.financial-tips-footer {
+  text-align: center;
+  padding: 1rem;
+  background: #333;
+  color: white;
+  margin-top: 2rem;
+}
+
+.financial-tips-footer p {
+  margin: 0;
+  font-size: 0.9rem;
+}
+.rotImg{
+  /* padding-left: 20px; */
+  margin-left: 20px;
+  margin-top: -20px;;
+  width: 220px; /* Adjust the size of the image */
+  transform: rotate(350deg); /* Rotate the image 45 degrees */
+      border-radius: 15px; /* Adds curved edges to the image */
+      box-shadow: 0 5px 15px rgba(0, 0, 0, 0.7); /* Adds a shadow effect */
+      transition: transform 0.3s ease; /* Smooth transition for consistent scaling */
+}
+
+.rotImg1{
+  
+  margin-left: 120px;
+  margin-top: -70px;;
+  width: 220px; /* Adjust the size of the image */
+  height: 140px;
+  transform: rotate(0deg); /* Rotate the image 45 degrees */
+      border-radius: 15px; /* Adds curved edges to the image */
+      box-shadow: 0 5px 15px rgba(0, 0, 0, 0.7); /* Adds a shadow effect */
+      transition: transform 0.3s ease; /* Smooth transition for consistent scaling */
+}
+.rotImg2{
+  
+  margin-top: -35px;;
+  margin-left: 40px;
+  width: 190px; /* Adjust the size of the image */
+  height: 120px;
+  transform: rotate(350deg); /* Rotate the image 45 degrees */
+      border-radius: 15px; /* Adds curved edges to the image */
+      box-shadow: 0 5px 15px rgba(0, 0, 0, 0.7); /* Adds a shadow effect */
+      transition: transform 0.3s ease; /* Smooth transition for consistent scaling */
+}

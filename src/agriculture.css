@@ -1,0 +1,41 @@
+/* Scoped styles for AgriculturalWaterInfo component */
+.agricultural-water-info-container {
+  .agricultural-water-info {
+    max-width: 400px;
+    margin: 40px auto;
+    padding: 20px;
+    background-color: #f7f7f7;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+
+  .section-header {
+    margin-top: 0;
+    font-size: 24px;
+    font-weight: bold;
+    color: #333;
+  }
+
+  .water-usage, .water-source, .soil-moisture, .weather-forecast {
+    margin-bottom: 10px;
+    font-size: 18px;
+    color: #666;
+  }
+
+  .water-usage {
+    color: #0099cc; /* blue */
+  }
+
+  .water-source {
+    color: #33cc33; /* green */
+  }
+
+  .soil-moisture {
+    color: #ff9900; /* orange */
+  }
+
+  .weather-forecast {
+    color: #666; /* gray */
+  }
+}
